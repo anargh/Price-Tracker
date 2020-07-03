@@ -1,7 +1,6 @@
 const router = require('express').Router();
 
-const UserService = require('../services/user');
-const User = require('../models/user');
+const UserService = require('../services/user.service');
 const auth = require('../middleware/auth');
 
 const userService = new UserService();

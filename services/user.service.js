@@ -4,7 +4,7 @@ const { ObjectID } = require('mongodb');
 const config = require('../config');
 const db = require('../db');
 const userSchema = require('../schema/user.schema');
-const TokenService = require('./token');
+const TokenService = require('./token.service');
 
 const SALT_ROUNDS = config.tokenRounds;
 const SECRET = config.tokenSecret;
